@@ -118,7 +118,8 @@ if __name__ == "__main__":
     # Training arguments
     parser.add_argument("--shuffle", default=True)
     parser.add_argument("--pin_memory", default=True)
-    parser.add_argument("--device", type=str, default="cuda")
+    #parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--device", type=str, default="cpu") # poner cpu para correr en el lenovo, luego poner cuda para correr con GPU
     parser.add_argument("--summary_batch_interval", type=int, default=1)
 
     args = parser.parse_args()
