@@ -10,6 +10,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 from model import Regressor
 ######################################## Prueba Commit 23012025
+######################################## Prueba Commit 23012025
 
 class BatteryDataset(Dataset):
     def __init__(self, X, y):
